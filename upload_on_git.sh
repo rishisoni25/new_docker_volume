@@ -8,7 +8,7 @@ git commit -m "new_files $date" && git push rishi master
 if test $? -eq 0
 then
 echo 'Success' >$successfile_$date1.txt
-git push origin master
+git push rishi  master
 else
 echo 'Failed' >$failure_$date1.txt
 fi
